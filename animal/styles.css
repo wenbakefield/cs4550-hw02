@@ -1,0 +1,42 @@
+@charset "utf-8";
+
+.rainbow-letters {
+  font-family: 'Comic Sans MS', 'Chalkboard SE', 'Comic Neue', sans-serif;
+}
+
+.rainbow-letters span:nth-child(7n + 1) {
+  color: red;
+}
+
+.rainbow-letters span:nth-child(7n + 2) {
+  color: orange;
+}
+
+.rainbow-letters span:nth-child(7n + 3){
+  color: gold;
+}
+
+.rainbow-letters span:nth-child(7n + 4){
+  color: green;
+}
+
+.rainbow-letters span:nth-child(7n + 5) {
+  color: blue;
+}
+
+.rainbow-letters span:nth-child(7n + 6){
+  color: indigo;
+}
+
+.rainbow-letters span:nth-child(7n + 7){
+  color: purple;
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 10px;
+}
